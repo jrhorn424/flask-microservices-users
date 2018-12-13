@@ -27,5 +27,5 @@ class User(db.Model):
 def ping_pong():
   return jsonify({
     'status': 'success',
-    'message': 'pong'
+    'message': 'pong!'
   })
